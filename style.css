@@ -1,0 +1,18 @@
+#mainPage {
+    background-color: #2f9eff;
+}
+
+#loggedUserBar {
+    display: block;
+    background-color: #7b7b7b;
+    width: 100%;
+    text-align: right;
+    font-size: 8;
+}
+
+#loggingIn {
+    display: block;
+    background-color: #7b7b7b;
+    width: 100%;
+    font-size: 8;
+}

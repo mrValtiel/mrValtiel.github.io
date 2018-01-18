@@ -1,9 +1,34 @@
 <!doctype html>
 <html>
 <head>
-
+    <meta charset="utf-8">
+    <title>mrValtiel</title>
+    <link rel="icon" type="image/x-icon" href="files/icon_index.jpg" />
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+    
 <body>
+<span id="loggedUserBar">
+    <button class="button" id="loggingInButton" onclick="showLoggingIn()">Log in</button>
+    <p id="loggedInUser">Logged in as: Guest</p>
+</span>
+<span id="loggingIn" style="visibility: hidden">
+    Username:
+    <input type="text" id="userNameInput" /><br />
+    <p id="incName" style="visibility: hidden">Username incorrect</p>
+    Password:
+    <input type="password" id="userPasswordInput" /><br />
+    <p id="incPass" style="visibility: hidden">Password incorrect</p>
+    <button class="button" id="logIn" onclick="logIn()">Log in</button>
+</span>
+    
+<div class="container" id="mainPage">
+    xxx
+</div>
 
+    
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
