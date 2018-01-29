@@ -7,14 +7,15 @@
     
     <link rel="stylesheet" type="text/css" href="bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
     
 <body>
 <span id="loggedUserBar">
-    <button class="button" id="loggingInButton" onclick="showLoggingIn()">Log in</button>
     <p id="loggedInUser">Logged in as: Guest</p>
+    <button class="button" id="loggingInButton" onclick="showLoggingIn()">Log in</button>
 </span>
-<span id="loggingIn" style="visibility: hidden">
+<span id="loggingIn" style="display: none">
     Username:
     <input type="text" id="userNameInput" /><br />
     <p id="incName" style="visibility: hidden">Username incorrect</p>
@@ -28,7 +29,5 @@
     xxx
 </div>
 
-    
-<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

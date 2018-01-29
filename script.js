@@ -3,11 +3,11 @@ var loggedUser = "guest";
 
 function showLoggingIn() {
     console.log("Showing logging in area");
-    document.getElementById("loggingIn").style.visibility = 'visible';
+    document.getElementById("loggingIn").style.display = 'block';
 }
 function hideLoggingIn() {
     console.log("Hidding logging in area");
-    document.getElementById("loggingIn").style.visibility = 'hidden';
+    document.getElementById("loggingIn").style.display = 'none';
 }
 function logIn() {
     document.getElementById("incName").style.visibility = 'hidden';
